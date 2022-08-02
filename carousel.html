@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section class="new-container">
+    <div class="container">
+        <h2 class="headings2">Plan Options</h2>
+        <p class="para2">10 plan options of ABSLI DigiShield Plan. A wide range of options to suit different needs.</p>
+        <!-- new carousel -->
+        <div class="carousel">
+            <button type="button" class="next unclick" id="left2" onclick="previous2()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>
+          </button>
+          <div class="caraDesign-2" data-active-2='1'>
+            <div class="caraHead">
+                <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                <div class="content">
+                    <span class="option-num">Option-1</span>
+                    <p class="carahead-text">Level Cover Option</p>
+                </div>
+            </div>
+            <p class="desc">This option pays the nominee the sum assured in lump-sum in case of the unfortunate death of the life insured during the policy term, provided all the premiums are paid. You will have to choose the nominee, sum assured, policy term, premium payment term and mode of payment during the inception of the policy.</p>
+              <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+              </svg>
+              </div>
+            </div>
+            <div class="caraDesign-2" data-active-2='2'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Increasing-Cover-Option.webp?extension=webp&revision=cf917116-bda6-4bf8-8bed-e7291f608f99&modified=20220215084959">
+                    <div class="content">
+                        <span class="option-num">Option-2</span>
+                        <p class="carahead-text">Increasing Cover Option</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, the sum assured increases every year during the policy term by a simple escalation rate of 5% or 10% per annum. At the inception, you have to choose the sum assured escalation rate. In case of death of the life insured during the policy term, the nominee gets the sum assured as applicable on that date in a lump sum.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='3'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-3</span>
+                        <p class="carahead-text">Sum Assured Reduction Option</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, the sum assured can be reduced by 25% or 50% from your retirement age till the end of the policy term. At the inception, you have to choose the reduction factor and your retirement age (60, 65, 70, or 75 years). In case of death of the policyholder during policy term, the nominee gets sum assured as applicable in lump sum.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='4'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-4</span>
+                        <p class="carahead-text">Whole Life Option (Level Cover)</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, you get covered till 100 years of age- this stretched cover period is why it’s called a whole life cover. In case of an unfortunate death of the life insured during the policy term, the nominee will receive the sum assured in lump sum.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='5'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-5</span>
+                        <p class="carahead-text">Whole Life Option (Sum Assured Reduction Cover)</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, you get life cover till 100 years of age plus the option to reduce the sum assured by 25% or 50% when retiring at age of 60/ 65/ 70/ 75 years till policy termination. The nominee gets the sum assured applicable in lump sum, in case of death of the life insured in the policy term.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>                
+            <div class="hide" data-active-2='6'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-6</span>
+                        <p class="carahead-text">Income Benefit</p>
+                    </div>
+                </div>
+                <p class="desc">In case of the death of the policyholder in the policy term, this option pays the nominee a monthly income of 1.5% of sum assured throughout the chosen income benefit period(10/15/20 years). At the inception of the policy, you can also choose to increase the monthly income by simple 5% p.a over the income benefit period.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='7'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-7</span>
+                        <p class="carahead-text">Level Cover Plus Income Benefit</p>
+                    </div>
+                </div>
+                <p class="desc">Instant financial relief to family matters after the sudden demise of the policyholder. Under this term insurance option, the nominee immediately gets 100% of the sum assured as a lump sum on the date of death of the life insured plus 0.5% of the sum assured as monthly income for a period of 10 years.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='8'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-8</span>
+                        <p class="carahead-text">Low Cover Option</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, the nominee(s)/ legal heir(s)/ assignee will receive the sum assured as a lump sum in case of the unfortunate demise of the policyholder in the policy term.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='9'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-9</span>
+                        <p class="carahead-text">Level Cover with Survival Benefit</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, you get survival benefit as a monthly income of 0.12% of the sum assured from when you turn 60 till the date of death or end of the policy term, whichever is earlier. In case of death during policy term, the nominee gets a sum assured less survival benefit already paid till death.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <div class="hide" data-active-2='10'>
+                <div class="caraHead">
+                    <img src="https://abcscprod.azureedge.net/-/media/Project/ABSLI/Article-Images/Icon-set/Icon-Level-Cover-Option.webp?extension=webp&revision=b1b2b908-229f-4c94-be63-2ef4d789750a&modified=20220215085020">
+                    <div class="content">
+                        <span class="option-num">Option-10</span>
+                        <p class="carahead-text">Return of Premium (ROP)</p>
+                    </div>
+                </div>
+                <p class="desc">Under this term insurance option, in case of survival of the policyholder beyond the policy term, 100% of total premiums paid(maturity benefits) will be paid back. In case of the death of the policyholder during the policy term, the nominee will receive the sum assured in a lump sum.</p>
+                  <div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                  </svg>
+                  </div>
+            </div>
+            <button type="button" class="next" id="right2" onclick="next2(10)"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+              </svg>
+            </button>
+        </div>
+    </div>
+   </section> 
+</body>
+<script src="carousel.js"></script>
+</html>
